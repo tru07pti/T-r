@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      #navbar {
+        text-align: left;
+    }
+    
+      @media only screen and (max-width: 480px) {
+  
+        #main-doc {
+            background-color: red;
+        }
+    }
+    </style>
   </head>
 
   <body>
     <nav id="navbar">
-
+      <header>This is navigation header</header>
+      <a href="#" class="nav-link">Home</a>
     </nav>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <script  src="js/index.js"></script>
+    
     <main id="main-doc">
       <section class="main-section" id="First_section">
         <header>First section</header>
@@ -21,6 +33,7 @@
         <ul>
           <li>First section list</li>
         </ul>
+        <a href="#First_section" class="nav-link">First section</a>
       </section>
       <section class="main-section" id="Second_section">
         <header>Second section</header>
@@ -30,6 +43,7 @@
         <ul>
           <li>Second section list</li>
         </ul>
+        <a href="#Second_section" class="nav-link">Second section</a>
       </section>
       <section class="main-section" id="Third_section">
         <header>Third section</header>
@@ -39,6 +53,7 @@
         <ul>
           <li>Third section list</li>
         </ul>
+        <a href="#Third_section" class="nav-link">Third section</a>
       </section>
       <section class="main-section" id="Fourth_section">
         <header>Fourth section</header>
@@ -48,6 +63,7 @@
         <ul>
           <li>Fourth section list</li>
         </ul>
+        <a href="#Fourth_section" class="nav-link">Fourth section</a>
       </section>
       <section class="main-section" id="Fifth_section">
         <header>Fifth section</header>
@@ -57,7 +73,11 @@
         <ul>
           <li>Fifth section list</li>
         </ul>
+        <a href="#Fifth_section" class="nav-link">Fifth section</a>
       </section>
     </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script  src="js/index.js"></script>
   </body>
 </html>
